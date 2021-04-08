@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th{
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+}
+.t1 table,.t1 tr th, .t1 tr td {
+    border: 3px solid green;
+    border-collapse: collapse;}
+
+
+
+
+.t2 table th td  {
+    border: 2px solid black;
+    padding-left: 20px;}
+
+.t3 div {
+    border: 5px solid black;
+    }
+.t3 table {
+    
+    margin: 3px;
+}
+
+.t3 table, .table3 tr td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.t3 table tr td {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.t3 table tr:nth-child(1) td{
+    text-align: left;
+}
+.t3 table tr td:nth-child(1){
+    text-align: left;
+}
+
+
+
+.t4 table {
+    border: 3px solid rgb(158, 158, 158);
+    ;
+}
+.t4 table tr td {
+    border: 3px solid rgb(177, 173, 173);
+    padding: 10px;
+}
+
+.t4 table th {
+    border: 3px solid rgb(177, 173, 173);
+    padding: 10px;
+}
+
+
+.t5 table{
+    border: 10px solid black;
+    
+    padding: 10px;
+}
+.t5 table tr td, .table5 table tr th {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.t6 table {
+    border: 2px solid black;
+    
+}
+.t6 table tr td, .table6 table tr th {
+    border: 2px solid black;
+}
+
+
+
+.t7 table tr td {
+    border: 3px solid black;}
+
+
+.t8 table tr td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+.t9 table {
+    border: 2px solid black;
+   
+}
+.t9 table tr td, .t9 table tr th {
+    border: 2px solid black;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>1.</h2>
+<div class="t1">
+<table style="width:100%">
+  <tr>
+    <th>1 header</th>
+    <th>1 header</th> 
+    <th>1 header</th>
+  </tr>
+
+  <tr>
+    <td>1 data</td>
+    <td>1 data</td>
+    <td>1data</td>
+  </tr>
+  <tr>
+    <td>2 data</td>
+    <td>2 data</td>
+    <td>2 data</td>
+  </tr>
+<tr>
+    <td>3 data</td>
+    <td>3 data</td>
+    <td>3 data</td>
+  </tr></table></div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>2.</h2>
+
+
+<div class="t2">
+<table style="width:100%">
+
+<tr>
+<th>column 1</th>
+<th>column 2</th>
+<th>column 3</th>
+</tr>
+<tr>
+<td rowspan="2">Row 1 Cell 1</td>
+<td>Row 1 Cell 2</td>
+<td>Row 1 Cell 3</td>
+</tr>
+<tr>
+<td>Row 2 Cell 2</td>
+<td>Row 2 Cell 3</td>
+</tr>
+<tr>
+<td colspan="3">Row 3 Cell 1</td>
+</tr>
+</table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>3.</h2>
+
+<div class="t3">
+<div>
+<table style width="100%">
+
+<tr>
+<th colspan="2">Subject</th>
+<th >John Deo</th>
+<th>Miriam Luther</th>
+</tr>
+
+<tr>
+<td rowspan ="2">Biology</td>
+<td>Practical</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td >Theory</td>
+<td>A+</td>
+<td>A</td>
+
+</tr>
+<tr>
+<td rowspan ="2" >Chemistry</td>
+<td>Pracical</td>
+<td>B</td>
+<td>C</td>
+</tr>
+<tr>
+<td >Theory</td>
+<td>A</td>
+<td>C+</td>
+
+</tr>
+<tr>
+<td rowspan ="2">Physics</td>
+<td>Practical</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td >Theory</td>
+<td>A-</td>
+<td>A-</td>
+</tr>
+</table></div></div>
+
+
+
+
+
+
+
+
+
+<h2>4.</h2>
+
+<div class="t4 ">
+       <table style width="100%">
+            <tr>
+                <th colspan="2">Home Team</th>
+                <th colspan="2">Away Team</th>
+            </tr>
+            <tr>
+                <td>Arsenal</td>
+                <td>2</td>
+                <td>Leeds</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Derby</td>
+                <td>1</td>
+                <td>Everton</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>0</td>
+                <td>Sunderland</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Newcastel</td>
+                <td>1</td>
+                <td>Man Utd</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>5.</h2>
+ <div class="t5">
+        <table style width="100%">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2"> Rows 1-2 Columns 1-2</td>
+                <td>Row 1 Column 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Column 3</td>
+            </tr>
+        </table>
+    </div>
+    
+ <h2>6.</h2>
+    <div class="t6">
+        <table style width="100%">
+            <tr>
+                <th></th>
+                <th>Satuarday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th>Morning</th>
+                <td rowspan="2">Work</td>
+                <td rowspan="3">Relex</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td>Dinner</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+ <h2>7.</h2>
+    <div class="t7">
+        <table style width="100%">
+            <tr style="height: 29px;">
+            <td style="width: 28.9487%; height: 29px;" colspan="3">&nbsp;</td>
+            <td style="width: 4.13638%; height: 29px;">&nbsp;</td>
+            <td style="width: 10.4558%; height: 63px;" rowspan="3">&nbsp;</td>
+            </tr>
+            <tr style="height: 17px;">
+            <td style="width: 13.29%; height: 17px;">&nbsp;</td>
+            <td style="width: 4.29498%; height: 17px;">&nbsp;</td>
+            <td style="width: 11.3638%; height: 17px;">&nbsp;</td>
+            <td style="width: 4.13638%; height: 17px;">&nbsp;</td>
+            </tr>
+            <tr style="height: 17px;">
+            <td style="width: 13.29%; height: 34px;" rowspan="2">&nbsp;</td>
+            <td style="width: 4.29498%; height: 17px;">&nbsp;</td>
+            <td style="width: 11.3638%; height: 17px;">&nbsp;</td>
+            <td style="width: 4.13638%; height: 17px;">&nbsp;</td>
+            </tr>
+            <tr style="height: 17px;">
+            <td style="width: 19.7951%; height: 17px;" colspan="3">&nbsp;</td>
+            <td style="width: 10.4558%; height: 17px;">&nbsp;</td>
+            </tr>
+            <tr style="height: 30px;">
+            <td style="width: 13.29%; height: 30px;">&nbsp;</td>
+            <td style="width: 4.29498%; height: 30px;">&nbsp;</td>
+            <td style="width: 25.9559%; height: 30px;" colspan="3">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+  <h2>8.</h2>
+    <div class="t8">
+        <table style width="100%">
+            <tr style="height: 18px;">
+            <td style="width: 36.5148%; height: 38px;" colspan="2" rowspan="2">r1c1</td>
+            <td style="width: 15.6515%; height: 18px;">r1c3</td>
+            <td style="width: 17.6819%; height: 38px;" rowspan="2">r1c4</td>
+            <td style="width: 31.1304%; height: 38px;" colspan="2" rowspan="2">r1c5</td>
+            </tr>
+            <tr style="height: 20px;">
+            <td style="width: 15.6515%; height: 42px;" rowspan="2">r2c3</td>
+            </tr>
+            <tr style="height: 22px;">
+            <td style="width: 36.5148%; height: 22px;" colspan="2">r3c1</td>
+            <td style="width: 31.7072%; height: 22px;" colspan="2">r3c4</td>
+            <td style="width: 17.1051%; height: 22px;">r3c6</td>
+            </tr>
+            <tr style="height: 27px;">
+            <td style="width: 16.6667%; height: 27px;">r4c1</td>
+            <td style="width: 35.4996%; height: 27px;" colspan="2">r4c2</td>
+            <td style="width: 17.6819%; height: 53.4px;" rowspan="2">r4c4</td>
+            <td style="width: 31.1304%; height: 27px;" colspan="2">rvc5</td>
+            </tr>
+            <tr style="height: 26.4px;">
+            <td style="width: 36.5148%; height: 48.4px;" colspan="2" rowspan="2">r5c1</td>
+            <td style="width: 15.6515%; height: 48.4px;" rowspan="2">r5c3</td>
+            <td style="width: 31.1304%; height: 48.4px;" colspan="2" rowspan="2">r5c5</td>
+            </tr>
+            <tr style="height: 22px;">
+            <td style="width: 17.6819%; height: 22px;">r6c4</td>
+            </tr>
+</table>
+    </div>
+
+    <h2>9.</h2>
+    <div class="t9">
+         <table style width="100%">
+            <tr>
+                <td>H1</td>
+                <td colspan="2">H2</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SubH2_1</td>
+                <td>SubH2_2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>B2</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>C4</td>
+                <td>C5</td>
+                <td>C6</td>
+            </tr>
+            <tr>
+                <td>D7</td>
+                <td colspan="2">D9</td>
+            </tr>
+            <tr>
+                <td colspan="3">Notes</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+<br><center><a href="index.html">Back To Home</a></center></br>
+
+</body>
+</html>

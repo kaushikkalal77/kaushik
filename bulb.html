@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BULB</title>
+	<style>
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #7CFC00;
+  color: black;
+  font-size: 30px;
+font-family: Georgia, serif;
+border: 1px solid #000000;}
+
+.header h3{text-align: right;}
+
+.header k1{text-align: right;}
+.b1{
+
+alignment:center;
+
+
+}
+.b1  {
+  max-width: 100%;
+  height: auto;
+
+  padding: 70px 0;
+
+  border-radius: 8px;
+ 
+  text-align: center;
+
+}
+
+.b2
+{  
+  background-color: #000000;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 10%;  
+  opacity: 0.9;  
+
+border-radius: 50%;}  
+
+.b3
+{  
+  background-color: #FF0000;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 10%;  
+  opacity: 0.9;  
+
+border-radius: 50%;}  
+
+.b4
+{  
+  background-color: #008000;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 10%;  
+  opacity: 0.9;  
+border-radius: 50%;
+}  
+
+.b5
+{  
+  background-color: #0000FF;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 10%;  
+  opacity: 0.9;  
+border-radius: 50%;
+}  
+
+
+
+
+</style>
+</head>
+<body>
+	<div class="header">
+ 
+<h1>Bulb On/Off using javascript</h1>
+<h3>~Kaushik kalal </h3>
+ <h3 class="k1">180020107021</h3> 
+</div>
+
+<br><br>
+	
+
+	<div class="b1">
+	<img id="myImage" src="off.png" width="100px" height="100px">
+	<br><br>
+	
+
+
+
+
+
+
+
+	<button class="b2" type="button" onclick="img(1)" >Off</button>
+	<button class="b3" type="button" onclick="img(2)" >Red</button>
+	<button class="b4" type="button" onclick="img(3)" >Green</button>
+	<button class="b5" type="button" onclick="img(4)" >Blue</button>
+	
+	
+	<script>
+	function img(sw) {
+	  var pic;
+	  if (sw == 1) {
+	    pic = "off.png"
+	  }
+	  else if(sw == 2){
+	  	pic = "red.png"
+	  }
+	  else if(sw == 3){
+	  	pic = "green.png"
+	  }
+	  else {
+	  	pic = "blue.png"
+	  }
+	    
+	   
+	  document.getElementById('myImage').src = pic;
+	}
+	</script></div>
+<center><h1><a href ="index.html">Back to home</a></h1></center>
+</body>
+</html>
