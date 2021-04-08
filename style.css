@@ -1,0 +1,115 @@
+body {
+
+font-family: Georgia, serif;
+  margin: 0;
+}
+
+
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #7CFC00;
+  color: black;
+  font-size: 30px;
+font-family: Georgia, serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #7CFC00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #7CFC00;
+  color: white;
+}
+
+/* Page Content */
+.content {padding:20px;}
+.container {  
+    padding: 50px;  
+  background-color: white;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+
+
+.registerbtn 
+{  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 20%;  
+  opacity: 0.9;  
+
+}  
+
+
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+ text-align: center;}
+
+.customers td,.customers th {
+  border: 1px solid #000000;
+  padding: 8px;
+text-align: center;}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#7CFC00 ;
+  color: white;
+  width: 1%
+}
+#Practicals {
+    display: block;
+}
+#lecture_work {
+    display: none;
+}
+
+#footer { padding: 5px;
+ background: #7CFC00; 
+color: black; 
+font-size: 20px; 
+border: 1px solid #000000;
+font-family: Georgia, serif;}
+
+
