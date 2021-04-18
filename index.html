@@ -143,14 +143,19 @@
 </table></div></center></br></br>
 
 <footer id="footer">
-<div class="a1"><p style="text-align:left;">
-    KAUSHIK KALAL
-    <span style="float:right;">
-        ENROLLMENT-180020107021
-    </span></div>
-</p>
-<center><p>Copyright ©2021 All rights reserved </p></center>
-  
+ <section >
+            <p id="creat">Created by<b> kaushik kalal</b>  </p>
+            <p id="enrollment"> <span>Enrollment : 180020107021</span></p>
+        </section>
+	
+<section class="counter">
+            <p>visitors</p>
+            <p id="count"></p>
+        </section>
+	
+</div>
+   	  </section>
+<center><p>Copyright  &copy;2021 All rights reserved by kaushik kalal</p></center>
 </footer> 
  <script>
         function showLecturework() {
@@ -163,7 +168,23 @@
             document.getElementById("lecture_work").style.display = "none";
            
         }
-        
+
+ 
+       const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/kaushik/web/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+
+
+
     </script>
     
 </body>
