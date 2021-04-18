@@ -110,6 +110,28 @@ text-align: center;}
 color: black; 
 font-size: 20px; 
 border: 1px solid #000000;
-font-family: Georgia, serif;}
+font-family: Georgia, serif;
+ }
+
+#enrollment {
+    float: right;
+    position: relative;
+ }
+
+#creat{
+    position: relative;
+    float: left;
+    
+}
+
+
+ 
+.counter {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 
