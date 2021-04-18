@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {text-align: left;
+    font-family:  sans-serif;
+    background-color: white;
+}
+
+h1{text-align: center;
+text-color: #7CFC00;}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+    padding: 100px;
+    margin: 100px;
+    background-color: #7CFC00;
+border-style: double;
+border-width: 10px}
+
+/* Add padding to containers */
+.container {
+    padding: 10px;
+     margin: 50px;
+    background-color: #7CFC00;}
+
+.registerbtn {
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+text allignment: center;}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+#series {
+    color: black ;
+    font-size: 22px;
+    padding: 50px 50px;
+    text-align: center; 
+    height: 65%;
+    overflow: auto;
+  
+}
+
+
+hr {
+    border: 2px solid #1c2e50;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type=number]{
+  width: 50%;
+    height: 50px;
+    padding: 10px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: 2px solid #1c2e50;
+    background: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 50px 260px;
+
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Fibonacci number</h1>
+<p><b>Get fibonacci series upto n number</b></p>
+   <hr>
+
+	<center><input type="number" id="number" placeholder="Enter number" name="number"  required></center>
+    <center><button  onclick="go()"  class="registerbtn">Enter</button></center>
+ 
+ <p id="series"></p>
+
+   <hr>
+  
+<center><h2>Kaushik kalal<br>
+180020107021</h2> </center>
+</div>
+<center><h1><a href ="index.html">Back to home</a></h1></center>
+<script>
+     
+
+function go(){
+    var num = document.getElementById("number").value;
+    var text = "";
+    var i;
+    var n1 = 0, n2 = 1, nextTerm;
+    for (i = 0; i < num; i++) {
+    text += n1 + ", " ;
+        nextTerm = n1 + n2;
+        n1 = n2;
+        n2 = nextTerm;
+    }
+
+    document.getElementById("series").innerHTML = "<b>Febonacci Series - : </b><br> " + text.slice(0,-2) + ".";    
+}
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

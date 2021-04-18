@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+h1{text-align: center;
+text-color: #7CFC00;}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+    padding: 100px;
+    margin: 100px;
+    background-color: #7CFC00;}
+
+/* Add padding to containers */
+.container {
+    padding: 10px;
+     margin: 50px;
+    background-color: #7CFC00;}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] ,input[type=date] ,input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 26px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+ display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+
+  }
+
+#current_address, #permanent_address{
+ width: 100%;
+    padding: 15px;
+    margin: 26px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whie;}
+display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+#same{
+    margin: 15px;
+}
+#male, #female, #other, {
+    margin: 15px;
+
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 2px solid #1c2e50;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+text allignment: center;}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+

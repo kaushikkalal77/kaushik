@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+ <style>
+        body {
+            background-color: white;
+        }
+        p {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+
+.container {
+    padding: 80px;
+     margin: 80px;
+    background-color: #7CFC00;
+padding-bottom: 100px;}
+   
+hr {
+    border: 2px solid #1c2e50;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+ </style>
+</head>
+<body>
+
+<div class="container">
+<center><p><b><h2>kaushik kalal <br>
+180020107021</h2></b></p></center>
+<hr>
+
+<p id="font"></p>
+    <script>
+        var v1 = setInterval(inTimer, 1000);
+        var fs = 3;
+        var ids = document.getElementById("font");
+        function inTimer() {
+            ids.innerHTML = '<b> AHMEDANAD INSTITUTE OF TECHNOLOGY </b>';
+            ids.setAttribute('style', "font-size: " + fs + "px; color: black;");
+            fs += 6;
+            if(fs >= 50 ){
+            clearInterval(v1);
+            }
+        }
+    </script>
+<hr>
+</div>
+<center><h1><a href ="index.html">Back to home</a></h1></center>
+</body>
+</html>

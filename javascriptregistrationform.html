@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="scriptregistrationform.css">
+
+
+</head>
+<body>
+
+<form action="/action_page.php" class="container" method="GET"  onsubmit="alert('Succesfully Submited.!!')">
+<div class="container">
+    <h1>Register Form</h1>
+   <hr>
+
+	<label for="Name" class="1"><b>Name</b></label>
+ 	<input type="text" placeholder="Enter Name" name="name" id="Email" required><br>
+ 
+ <label for="gender" class="1"><b>Gender</b></label><br><br>
+        <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+                <br><br>
+
+ <label for="birthday" class="1"><b>Date of birth</b></label>
+  <input type="date" placeholder="Enter DOB" id="Email" name="Birthday"><br>
+
+
+	<label for="phone" class="1"><b>Phone</b></label>
+        <input type="tel" name="phone" id="Email" placeholder="Enter Your Phone Number" maxlength="10" required>
+        <br>
+ 
+
+ <label for="current_address"><b>Current Address</b></label>
+        <textarea name="current_address" id="current_address" cols="30" rows="10" placeholder="Enter Your Address" required></textarea>
+        <br>
+
+        <input type="checkbox" name="current_same" id="assame" onclick="same()">
+        <label for="same"> Same as above </label>
+        <br><br>
+
+        <label for="permanent_address"><b>Permanant Address</b></label>
+        <textarea name="permanent_address" id="permanent_address" cols="30" rows="10" placeholder="Enter Your Address" required></textarea>
+        <br>
+     <label for="User Name" class="1"><b>User Name</b></label>
+ 	<input type="text" placeholder="Enter User Name" name="name" id="Email" required><br>
+
+
+	<label for="email" class="1"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+    <label for="psw" class="1"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw"  required>
+<p><b>password must contain uppercase,lowercase,special charecter and number</b> </p>  
+<br><br>
+
+<div>
+
+    <label for="psw-repeat" class="1"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="psw-repeat" id="psw-repeat" required>
+    <hr><br>
+    
+
+    <center><button type="submit" class="registerbtn">Register</button></center>
+  </div>
+  
+</form>
+<script>
+        function same() {
+
+            var current_address = document.getElementById('current_address');
+            var permanent_address = document.getElementById('permanent_address');
+            var same = document.getElementById('assame');
+
+            if (same.checked == true) {
+                permanent_address.value = current_address.value;
+                permanent_address.disabled = true;
+            } 
+            else {
+                permanent_address.disabled = false;
+            }
+        } 
+        
+    </script>
+    <center><h1><a style="color:black;" href ="index.html">Back to home</a></h1></center>
+</body>
+</html>
+
